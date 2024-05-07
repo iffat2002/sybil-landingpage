@@ -4,14 +4,14 @@ import Image from "next/image";
 const Honeygraph = () => {
   return (
     <div>
-      <div className="w-10/12 m-auto">
+      <div className="w-10/12 m-auto mt-20">
         <p
-          className="text-base font-bold text-[#FEB534]
+          className="text-base font-bold text-[#FEB534] max-sm:text-sm
 leading-[22px]"
         >
           HOW MUCH CAN I EARN?
         </p>
-        <h1 className="text-5xl font-extrabold tracking-tighter">
+        <h1 className="text-5xl max-lg:text-4xl max-sm:text-2xl text-center font-extrabold tracking-tighter">
           The more you refer Sybil, the more you earn!
         </h1>
       </div>
@@ -21,23 +21,23 @@ leading-[22px]"
       <div className="w-10/12 m-auto my-36">
         <p
           className="text-lg font-semibold text-[#FEB534]
-leading-[26px] "
+leading-[26px] max-sm:text-sm max-md:text-base"
         >
           HOW DO I BEGIN EARNING?
         </p>
-        <h1 className="text-6xl font-bold tracking-tighter">
+        <h1 className="text-6xl max-lg:text-5xl max-sm:text-3xl font-bold tracking-tighter">
           Sybil is Simple and easy to start!{" "}
         </h1>
-        <p className="my-10 text-xl">
+        <p className="my-10 max-md:my-5 text-xl max-md:text-base max-sm:text-sm">
           Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et.
           Auctor turpis semper id sit ornare maecenas lectus sed.
         </p>
         <div className="m-auto w-fit">
-          <button className="text-2xl font-bold rounded-full border-2 border-[#FFCB20] h-[64px] px-8 m-auto">
+          <button className="text-2xl max-lg:text-lg  font-bold rounded-full border-2 border-[#FFCB20] h-[64px] px-8 m-auto">
             Get Sybil Now
           </button>
         </div>
-        <div className="flex justify-between items-center mt-[-50px]">
+        <div className="flex justify-between max-md:justify-center items-center max-md:flex-wrap mt-[-50px] max-sm:gap-3 max-md:mt-[10px]">
           <div className="w-[259px] px-1">
             <svg
               width="64"
@@ -60,8 +60,8 @@ leading-[26px] "
                 stroke-linejoin="round"
               />
             </svg>
-            <h2 className="text-xl my-4 font-bold">Download</h2>
-            <p className="text-lg">
+            <h2 className="text-xl my-4 font-bold max-sm:text-lg">Download</h2>
+            <p className="text-lg max-sm:text-sm">
               Get the App from your preferred store and set up Sybil.
             </p>
           </div>
@@ -82,8 +82,8 @@ leading-[26px] "
               />
             </svg>
 
-            <h2 className="text-xl my-4 font-bold">Use your phone</h2>
-            <p className="text-lg">
+            <h2 className="text-xl my-4 font-bold max-sm:text-lg">Use your phone</h2>
+            <p className="text-lg max-sm:text-sm">
               Don't change a thing, use your phone like you always do.
             </p>
           </div>
@@ -97,8 +97,8 @@ leading-[26px] "
               xmlns="http://www.w3.org/2000/svg"
             ></svg>
 
-            <h2 className="text-xl my-4 font-bold">Make money</h2>
-            <p className="text-lg">
+            <h2 className="text-xl my-4 font-bold max-sm:text-lg">Make money</h2>
+            <p className="text-lg max-sm:text-sm">
               Cash out with PayPal whenever you want your earnings.
             </p>
           </div>
@@ -146,8 +146,8 @@ leading-[26px] "
               </defs>
             </svg>
 
-            <h2 className="text-xl my-4 font-bold">Refer Friends</h2>
-            <p className="text-lg">
+            <h2 className="text-xl my-4 font-bold max-sm:text-lg">Refer Friends</h2>
+            <p className="text-lg max-sm:text-sm">
             The more you refer, the more you earn each month
             </p>
           </div>

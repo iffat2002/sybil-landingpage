@@ -63,8 +63,8 @@ const Faq = () => {
   console.log(scrollPosition)
 
   return (
-    <div className="h-[767px] overflow-x-hidden bg-[#FFCB20] relative ">
-       <div className="absolute  top-[90px] right-0 z-0 ">
+    <div className="h-full overflow-x-hidden bg-[#FFCB20] relative ">
+       <div className="absolute top-[90px] right-0 z-0 ">
       <svg width="180" height="301" viewBox="0 0 180 301" fill="none" xmlns="http://www.w3.org/2000/svg">
 <ellipse cx="166.368" cy="150.245" rx="127" ry="184" transform="rotate(-52.9316 166.368 150.245)" fill="#38BDF8"/>
 </svg>
@@ -79,17 +79,17 @@ const Faq = () => {
       </div>
       
      
-      <div className="w-10/12 text-white m-auto my-20 relative z-1">
+      <div className="w-10/12 text-white m-auto my-20 max-sm:my-10 relative z-1">
         <p className="font-semi-bold">FAQ'S</p>
-        <h1 className="text-5xl font-bold mb-6 ">Frequently Asked Questions</h1>
-        <p className="w-[54%] text-xl">
+        <h1 className="text-5xl max-lg:text-4xl max-md:text-3xl  font-bold mb-6 ">Frequently Asked Questions</h1>
+        <p className="w-[54%] text-xl max-md:text-lg">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore fugit
           expedita assumenda accusantium optio reiciendis, dolores praesentium,
         </p>
       </div>
       <div
-        className="relative overflow-x-hidden ml-auto z-1"
-        style={{ width: "1260px", marginLeft: "auto" }}
+        className="relative overflow-x-hidden  z-1 "
+        style={{ width: '90%', marginLeft: "auto" }}
       >
         <div
           className="flex transition-transform duration-500"
@@ -97,7 +97,7 @@ const Faq = () => {
         >
           {items.map((item, index) => (
             <div
-              className="w-[350px] h-[230px] bg-white p-6 rounded-lg shadow-lg mr-6 flex-shrink-0 "
+              className="w-[350px] h-[230px] max-sm:w-[250px] max-sm:h-[255px] bg-white p-6 rounded-lg shadow-lg mr-6 flex-shrink-0 "
               key={index}
             >
               {item}
