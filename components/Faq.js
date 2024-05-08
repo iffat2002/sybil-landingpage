@@ -93,7 +93,7 @@ const Faq = () => {
       >
         <div
           className="flex transition-transform duration-500"
-          style={{ transform: `translateX(-${scrollPosition * 25}%)` }}
+          style={{ transform: `translateX(-${scrollPosition * 35}%)` }}
         >
           {items.map((item, index) => (
             <div
